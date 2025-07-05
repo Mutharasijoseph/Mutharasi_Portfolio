@@ -1,1 +1,14 @@
-.blog-section { padding: 20px; }
+ .blog-section {
+  background-color: #121212;
+  color: white;
+  padding: 2rem;
+}
+
+.glow-purple {
+  text-shadow: 0 0 10px #b38bff, 0 0 20px #b38bff;
+}
+
+.blog-img-glow {
+  box-shadow: 0 0 15px #b38bff;
+}
+
