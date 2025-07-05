@@ -1,0 +1,37 @@
+.home-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d0d1f, #1a103d);
+  color: #fff;
+  padding: 60px 0;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeSlideUp 1s ease-out forwards;
+}
+
+/* Existing glow styles remain unchanged */
+.glow-purple {
+  color: #a855f7;
+  text-shadow: 0 0 5px #a855f7, 0 0 10px #9333ea, 0 0 20px #7e22ce;
+  animation: glowPulse 2s infinite alternate;
+}
+
+.custom-glow {
+  box-shadow: 0 0 10px #a855f7, 0 0 20px #9333ea, 0 0 30px #7e22ce;
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 5px #a855f7, 0 0 10px #9333ea, 0 0 20px #7e22ce;
+  }
+  100% {
+    text-shadow: 0 0 15px #a855f7, 0 0 30px #9333ea, 0 0 45px #7e22ce;
+  }
+}
+
+/* 🔥 New Animation */
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
