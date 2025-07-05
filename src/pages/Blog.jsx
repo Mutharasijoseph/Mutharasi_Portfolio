@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './Blog.css'; // Custom dark theme styles
+import './blog.css'; // Custom dark theme styles
 
 function Blog() {
   const [blogs, setBlogs] = useState([
